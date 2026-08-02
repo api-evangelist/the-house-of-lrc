@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+host: https://thehouseoflrc.com
+note: >-
+  The House of LR&C runs on Shopify. The only /.well-known/ document served on
+  the storefront host is Shopify's Customer Account API OIDC discovery document
+  (a platform artifact, not a first-party company API). security.txt 301-redirects
+  to thegoodmanbrand.com and 404s there.
+documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: the-house-of-lrc-openid-configuration.json
+    note: Shopify Customer Account API OIDC discovery (issuer shopify.com/authentication/41203597469)
+  - path: /.well-known/security.txt
+    status: 301
+    note: redirects to https://thegoodmanbrand.com/.well-known/security.txt (404)
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301

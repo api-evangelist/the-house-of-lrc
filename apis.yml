@@ -1,8 +1,28 @@
 aid: the-house-of-lrc
-name: The House Of Lrc
-description: The House Of Lrc is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-house-of-lrc.png
+name: The House Of LR&C
+description: >-
+  The House of LR&C (Love, Respect & Care) is a Seattle-based, mission-driven
+  direct-to-consumer fashion company founded in 2020 by Russell Wilson, Ciara,
+  and retail veteran Christine Day. A Certified B Corporation, it operates a
+  portfolio of apparel brands including Good Man Brand, LITA by Ciara, and Human
+  Nation, donating 3% of net revenue to the Why Not You Foundation. It was
+  surfaced as a portfolio company of Lightspeed Venture Partners and added to the
+  API Evangelist network. Its public commerce runs on Shopify; the company
+  publishes no first-party developer API, SDKs, or developer documentation. The
+  only machine-readable surface on the storefront host is Shopify's platform-level
+  Customer Account API OIDC discovery document.
 url: https://raw.githubusercontent.com/api-evangelist/the-house-of-lrc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fashion
+- Apparel
+- Retail
+- E-Commerce
+- Direct-to-Consumer
+- Consumer
+- Shopify
+- B Corporation
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://thehouseoflrc.com
+- type: Blog
+  url: https://thehouseoflrc.com/blogs/news
+- type: TermsOfService
+  url: https://thehouseoflrc.com/policies/terms-of-service
+- type: PrivacyPolicy
+  url: https://thehouseoflrc.com/policies/privacy-policy
+- type: SignUp
+  url: https://thehouseoflrc.com/account/login
+- type: WellKnown
+  url: well-known/the-house-of-lrc-well-known.yml
+- type: DomainSecurity
+  url: security/the-house-of-lrc-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
