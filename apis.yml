@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://thehouseoflrc.com', status: 301, note: 'declared website redirects to https://thegoodmanbrand.com/ — a different registrable domain (thehouseoflrc.com -> thegoodmanbrand.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/the-house-of-lrc.png
 name: The House Of LR&C
 description: >-
