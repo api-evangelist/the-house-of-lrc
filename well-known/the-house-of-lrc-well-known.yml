@@ -1,12 +1,12 @@
 generated: '2026-07-21'
 method: searched
 host: https://thehouseoflrc.com
-note: >-
-  The House of LR&C runs on Shopify. The only /.well-known/ document served on
-  the storefront host is Shopify's Customer Account API OIDC discovery document
-  (a platform artifact, not a first-party company API). security.txt 301-redirects
-  to thegoodmanbrand.com and 404s there.
-documents:
+note: The House of LR&C runs on Shopify. The only /.well-known/ document served on the storefront host
+  is Shopify's Customer Account API OIDC discovery document (a platform artifact, not a first-party company
+  API). security.txt 301-redirects to thegoodmanbrand.com and 404s there.
+hosts:
+- host: https://thehouseoflrc.com
+  documents:
   - path: /.well-known/openid-configuration
     status: 200
     file: the-house-of-lrc-openid-configuration.json
@@ -20,3 +20,8 @@ documents:
     status: 301
   - path: /.well-known/ai-plugin.json
     status: 301
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
