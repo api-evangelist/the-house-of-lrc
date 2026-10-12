@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/the-house-of-lrc/integrations
+- https://zapier.com/apps/the-house-of-lr-c/integrations
+- https://n8n.io/integrations/the-house-of-lrc/
+- https://composio.dev/toolkits/the-house-of-lrc
+- https://monid.ai/tools/the-house-of-lrc
+checked:
+- https://composio.dev/toolkits/the-house-of-lrc
+- https://monid.ai/tools/the-house-of-lrc
+- https://n8n.io/integrations/the-house-of-lrc/
+- https://zapier.com/apps/the-house-of-lr-c/integrations
+- https://zapier.com/apps/the-house-of-lrc/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
